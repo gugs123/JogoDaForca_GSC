@@ -57,7 +57,7 @@ public class JogoForca {
             }
             
 			// Reduz nro de chances se letra digitada nao existir.
-            if (letraEncontrada) {
+            if (!letraEncontrada) {
                 chancesRestantes--;
             }
         }
