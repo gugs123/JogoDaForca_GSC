@@ -61,7 +61,7 @@ public class JogoForca {
                 chancesRestantes--;
             }
         }
-
+        in.close();
         System.out.println("===========");
         System.out.println(" Game Over ");
         System.out.println("===========");
